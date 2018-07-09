@@ -23,6 +23,7 @@
         android:layout_marginTop="25dp"
         android:layout_marginBottom="20dp"
         android:layout_below="@+id/logo_bigg"
+        android:onClick="onMemberButtonClick"
         android:text="@string/member_connexion_button"/>
     <Button
         android:id="@+id/guest_connexion_button"
@@ -30,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/member_connexion_button"
+        android:onClick="onGuestButtonClick"
         android:text="@string/guest_connexion_button"/>
 
 </RelativeLayout>

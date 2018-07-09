@@ -3,4 +3,10 @@
     <string name="fuzzy_background_connexion_description">Fond flou de la page de connexion</string>
     <string name="member_connexion_button">Membre</string>
     <string name="guest_connexion_button">Invité</string>
+    <string name="password_button_label">Password</string>
+    <string name="connexion_button_label">Connexion</string>
+    <string name="auth_error">Mot de passe incorrect</string>
+    <string name="edit_event_button_label">Edition des Evenements</string>
+    <string name="add_event_button_label">Ajouter un Evenement</string>
+    <string name="delete_event_button_label">Supprimer un Evenement</string>
 </resources>

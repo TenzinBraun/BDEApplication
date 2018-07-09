@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".activity.EventActivity" />
+        <activity android:name=".activity.AuthentificationActivity" />
+        <activity android:name=".activity.MemberMenuActivity"></activity>
     </application>
 
 </manifest>

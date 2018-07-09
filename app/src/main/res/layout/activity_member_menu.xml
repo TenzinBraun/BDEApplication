@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_connexion"
+    tools:context=".activity.MemberMenuActivity">
+
+    <Button
+        android:id="@+id/edit_event_button"
+        style="@style/ConnexionScreenWideButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="211dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/edit_event_button_label" />
+
+    <Button style="@style/ConnexionScreenWideButton"
+        android:id="@+id/add_event_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_below="@+id/edit_event_button"
+        android:text="@string/add_event_button_label"/>
+
+    <Button style="@style/ConnexionScreenWideButton"
+        android:id="@+id/delete_event_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_event_button"
+        android:text="@string/delete_event_button_label"/>
+
+</RelativeLayout>
