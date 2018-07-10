@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@drawable/background_connexion"
-    tools:context=".activity.ConnexionActivity">
+    android:background="@drawable/background_connexion">
 
     <ImageView
         android:id="@+id/logo_bigg"
         android:layout_width="wrap_content"
-        android:layout_height="350dp"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:src="@drawable/official_bigg_log"/>
+        android:src="@drawable/official_logo_bigg"/>
 
     <Button
         android:id="@+id/member_connexion_button"

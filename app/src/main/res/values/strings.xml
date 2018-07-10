@@ -9,4 +9,8 @@
     <string name="edit_event_button_label">Edition des Evenements</string>
     <string name="add_event_button_label">Ajouter un Evenement</string>
     <string name="delete_event_button_label">Supprimer un Evenement</string>
+    <string name="edit_article_name">Nom de l\'article</string>
+    <string name="edit_article_content">Description de l\'article</string>
+    <string name="add_button_label">Ajouter</string>
+    <string name="import_picture">Importer une Image</string>
 </resources>

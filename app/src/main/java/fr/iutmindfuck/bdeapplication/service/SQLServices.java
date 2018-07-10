@@ -50,6 +50,6 @@ public class SQLServices extends SQLiteOpenHelper{
     }
 
     private void initializePasswordMember(SQLiteDatabase sqLiteDatabase) {
-        sqLiteDatabase.execSQL("INSERT INTO `User` (password) VALUES ('bigg-bde-pass-member');");
+        sqLiteDatabase.execSQL("INSERT INTO `User` (password) VALUES ('bigg');");
     }
 }

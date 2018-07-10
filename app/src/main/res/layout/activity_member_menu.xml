@@ -17,7 +17,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="211dp"
         android:layout_marginBottom="15dp"
-        android:text="@string/edit_event_button_label" />
+        android:text="@string/edit_event_button_label"/>
 
     <Button style="@style/ConnexionScreenWideButton"
         android:id="@+id/add_event_button"
@@ -25,7 +25,8 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
         android:layout_below="@+id/edit_event_button"
-        android:text="@string/add_event_button_label"/>
+        android:text="@string/add_event_button_label"
+        android:onClick="onAddEventButtonClick"/>
 
     <Button style="@style/ConnexionScreenWideButton"
         android:id="@+id/delete_event_button"
