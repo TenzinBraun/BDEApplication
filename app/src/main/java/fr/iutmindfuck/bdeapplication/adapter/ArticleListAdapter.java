@@ -12,8 +12,8 @@ import java.util.ArrayList;
 import fr.iutmindfuck.bdeapplication.data.Article;
 
 
-public class ArticleAdapter extends ArrayAdapter<Article> {
-    public ArticleAdapter(@NonNull Context context, int resource, ArrayList<Article> articles) {
+public class ArticleListAdapter extends ArrayAdapter<Article> {
+    public ArticleListAdapter(@NonNull Context context, int resource, ArrayList<Article> articles) {
         super(context,0,articles);
     }
 
